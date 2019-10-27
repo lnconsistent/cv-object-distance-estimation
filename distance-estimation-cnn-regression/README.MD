@@ -26,4 +26,4 @@ to turn audio reporting of landmarks on.
 This work builds on and draws inspiration from the following:
 
 - [Yun Chen's simpler pytorch implmentation of Faster R-CNN](https://github.com/chenyuntc/simple-faster-rcnn-pytorch) which is itself a reference to [py-faster-rcnn by Ross Girshick and Sean Bell](https://github.com/rbgirshick/py-faster-rcnn).
-- [Harshil Patel's (incomplete) neural network] (https://github.com/harshilpatel312/KITTI-distance-estimation), which used bounding boxes and a regression neural network to estimate distance.
+- [Harshil Patel's (incomplete) neural network](https://github.com/harshilpatel312/KITTI-distance-estimation), which used bounding boxes and a regression neural network to estimate distance.
