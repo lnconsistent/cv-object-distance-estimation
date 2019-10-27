@@ -1,8 +1,13 @@
 The MIT License
 
-Copyright (c) 2017 Yun Chen
+Copyright (c) 2019 Oliver Xu
 
 Original works by:
+--------------------------------------------------------
+chainer/chainercv
+Copyright (c) 2017 Yun Chen
+Licensed under The MIT License
+https://github.com/chenyuntc/simple-faster-rcnn-pytorch/blob/master/LICENSE
 --------------------------------------------------------
 chainer/chainercv
 Copyright (c) 2017 Yusuke Niitani
