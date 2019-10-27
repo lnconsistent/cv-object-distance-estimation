@@ -1,0 +1,29 @@
+/home/olixu/anaconda3/lib/python3.7/site-packages/visdom/server.py:39: DeprecationWarning: zmq.eventloop.ioloop is deprecated in pyzmq 17. pyzmq now works with default tornado and asyncio eventloops.
+  ioloop.install()  # Needs to happen before any tornado imports!
+INFO:root:Application Started
+Traceback (most recent call last):
+  File "/home/olixu/anaconda3/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/olixu/anaconda3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/olixu/anaconda3/lib/python3.7/site-packages/visdom/server.py", line 1922, in <module>
+    download_scripts_and_run()
+  File "/home/olixu/anaconda3/lib/python3.7/site-packages/visdom/server.py", line 1918, in download_scripts_and_run
+    main()
+  File "/home/olixu/anaconda3/lib/python3.7/site-packages/visdom/server.py", line 1913, in main
+    use_frontend_client_polling=FLAGS.use_frontend_client_polling)
+  File "/home/olixu/anaconda3/lib/python3.7/site-packages/visdom/server.py", line 1803, in start_server
+    ioloop.IOLoop.instance().start()
+  File "/home/olixu/anaconda3/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 148, in start
+    self.asyncio_loop.run_forever()
+  File "/home/olixu/anaconda3/lib/python3.7/asyncio/base_events.py", line 539, in run_forever
+    self._run_once()
+  File "/home/olixu/anaconda3/lib/python3.7/asyncio/base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/home/olixu/anaconda3/lib/python3.7/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Checking for scripts.
+Downloading scripts, this may take a little while
+It's Alive!
+You can navigate to http://localhost:8097
