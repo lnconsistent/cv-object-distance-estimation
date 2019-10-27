@@ -13,13 +13,9 @@ Download pretrained model for Faster R-CNN from [Google Drive](https://drive.goo
 
 For a demonstration on images taken from a webcam run
 ```
-python webcam.py
+python webcam.py --verbose
 ```
-from the base directory. Use 
-```
---verbose
-```
-to turn audio reporting of landmarks on.
+from the base directory. Use verbosity to turn audio reporting of landmarks on or off.
 
 
 ## Acknowledgement
