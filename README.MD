@@ -1,4 +1,4 @@
-# Using CV to estimate distance to landmarks and objects in a segmented RGB image
+# Using CV to detect and estimate distance to landmarks and objects in RGB images
 
 ## 1. Introduction
 
