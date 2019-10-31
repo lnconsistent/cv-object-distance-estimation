@@ -9,7 +9,7 @@ This project combines a regression neural network on bounding boxes for distance
 
 ## 2. Demo
 
-Download pretrained model for Faster R-CNN from [Google Drive](https://drive.google.com/open?id=1cQ27LIn-Rig4-Uayzy_gH5-cW-NRGVzY) or [Baidu Netdisk( passwd: scxn)](https://pan.baidu.com/s/1o87RuXW)
+Download pretrained model for Faster R-CNN from [Google Drive](https://drive.google.com/open?id=1cQ27LIn-Rig4-Uayzy_gH5-cW-NRGVzY) or [Baidu Netdisk( passwd: scxn)](https://pan.baidu.com/s/1o87RuXW). Please use the Pytorch (torchvision) weights.
 
 For a demonstration on images taken from a webcam run
 ```
@@ -18,7 +18,7 @@ python webcam.py --verbose
 from the base directory. Use verbosity to turn audio reporting of landmarks on or off.
 
 
-## Acknowledgement
+## Acknowledgements
 This work builds on and draws inspiration from the following:
 
 - [Yun Chen's simpler pytorch implmentation of Faster R-CNN](https://github.com/chenyuntc/simple-faster-rcnn-pytorch) which is itself a reference to [py-faster-rcnn by Ross Girshick and Sean Bell](https://github.com/rbgirshick/py-faster-rcnn).
