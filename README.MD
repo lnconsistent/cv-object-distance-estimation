@@ -16,7 +16,9 @@ For a demonstration on images taken from a webcam run
 python webcam.py --verbose
 ```
 from the base directory. Use verbosity to turn audio reporting of landmarks on or off.
-![](https://github.com/lnconsistent/cv-object-distance-estimation/blob/master/results/g1.jpg)
+<p align="center"> 
+<img src="https://github.com/lnconsistent/cv-object-distance-estimation/blob/master/results/g1.jpg">
+</p>
 ![](https://github.com/lnconsistent/cv-object-distance-estimation/blob/master/results/g2.jpg)
 
 ## Acknowledgements
